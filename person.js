@@ -16,6 +16,14 @@ const blogSchema = new Schema({
     },
     phone: {
         type: Number,
+    },
+    userName: {
+        type: String,
+        required: true
+    },
+    password: {
+        type: String,
+        required: true
     }
 });
 
